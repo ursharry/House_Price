@@ -12,30 +12,60 @@
 
 ## General Information
   Aim is to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
+  
+  The company wants to know:
+
+  Which variables are significant in predicting the price of a house, and
+
+  How well those variables describe the price of a house.
+
+  Also, determine the optimal value of lambda for ridge and lasso regression.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+
+1) Optimum Value in case of Ridge and Lasso are :
+Ridge - 5
+
+Lasso - 0.0004
+
+2) Mean Square error are :
+
+Ridge - 0.01363
+
+Lasso - 0.01346
+
+3)Mean Square error of lasso is slightly less than Ridge Also, since Lasso helps in feature reduction, Lasso has a better edge over Ridge.
+
+4) As per the Lasso the factors that generally affect the price are the Zoning classification, Living area square feet, Overall quality and condition of the house, Foundation type of the house, Number of cars that can be accomodated in the garage, Total basement area in square feet and the Basement finished square feet area.
+
+Below Variable are significant in predicting the Value of house price.
+
+1) MSZoning_RL	
+2) GrLivArea
+3) MSZoning_RM
+4) OverallQual
+5) MSZoning_FV
+6) TotalBsmtSF
+7) OverallCond
+8) Foundation_PConc
+9) GarageCars	
+10) BsmtFinSF1
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - version 3.0
+- Matplotlib
+- Seaborn
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+
+This project was created to explore and apply our Advance regression learning.
 
 
 ## Contact
