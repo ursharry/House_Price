@@ -26,19 +26,20 @@
 ## Conclusions
 
 1) Optimum Value in case of Ridge and Lasso are :
-Ridge - 5
 
-Lasso - 0.0004
+   Ridge - 5
+
+   Lasso - 0.0004
 
 2) Mean Square error are :
 
-Ridge - 0.01363
+   Ridge - 0.01363
 
-Lasso - 0.01346
+   Lasso - 0.01346
 
-3)Mean Square error of lasso is slightly less than Ridge Also, since Lasso helps in feature reduction, Lasso has a better edge over Ridge.
+3) Mean Square error of lasso is slightly less than Ridge Also, since Lasso helps in feature reduction, Lasso has a better edge over Ridge.
 
-4) As per the Lasso the factors that generally affect the price are the Zoning classification, Living area square feet, Overall quality and condition of the house, Foundation type of the house, Number of cars that can be accomodated in the garage, Total basement area in square feet and the Basement finished square feet area.
+4) As per the Lasso the factors that generally affect the price are the Zoning classification, Living area square feet, Overall quality and condition of the house,    Foundation type of the house, Number of cars that can be accomodated in the garage, Total basement area in square feet and the Basement finished square feet area.
 
 Below Variable are significant in predicting the Value of house price.
 
